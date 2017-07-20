@@ -1,0 +1,93 @@
+body {
+  background: url("http://wallpapercave.com/wp/hN0TnNU.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+table {
+  position: absolute;
+  height: 333px;
+  width: 333px;
+  border-collapse: separate;
+  margin-left: 100px;
+  top: 25%;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#count {
+  font-family: 'Oswald', sans-serif;
+  color:black;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#rojo {
+  background-color: #f65314;
+}
+
+#rojo:hover {
+  background-color: #c95820;
+  cursor: pointer;
+}
+
+.rojoactive {
+  background-color: #c95820 !important;
+}
+
+#verde {
+  background-color: #7cbb00;
+}
+
+#verde:hover {
+  background-color: #4af752;
+  cursor: pointer;
+}
+
+.verdeactive {
+  background-color: #4af752 !important;
+}
+
+#azul {
+  background-color: #00a1f1;
+}
+
+#azul:hover {
+  background-color: #3f34f9;
+  cursor: pointer;
+}
+
+.azulactive {
+  background-color: #3f34f9 !important;
+}
+
+#amarillo {
+  background-color: 	#ffbb00;
+}
+
+#amarillo:hover {
+  background-color: #d1c73a;
+  cursor: pointer;
+}
+
+.amarilloactive {
+  background-color: #d1c73a !important;
+}
+
+a {
+  font-family: 'Bubblegum sans', sans-serif; 
+  cursor: pointer;
+}
